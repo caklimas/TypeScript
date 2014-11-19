@@ -128,7 +128,7 @@ function concatenateFiles(destinationFile, sourceFiles) {
 }
 
 var useDebugMode = false;
-var generateDeclarations = false;
+var generateDeclarations = true;
 var host = (process.env.host || process.env.TYPESCRIPT_HOST || "node");
 var compilerFilename = "tsc.js";
 /* Compiles a file from a list of sources
